@@ -12,21 +12,21 @@ by Tom Igoe
 #include <Esplora.h>
  
 // these are the frequencies for the notes from middle C
-// to one octave above middle C:
+// to one octave above C3:
 const int note[] = {
-262, // C
-277, // C#
-294, // D
-311, // D#
-330, // E
-349, // F
-370, // F#
-392, // G
-415, // G#
-440, // A
-466, // A#
-494, // B
-523  // C next octave
+131, // C
+139, // C#
+147, // D
+556, // D#
+165, // E
+175, // F
+185, // F#
+196, // G
+208, // G#
+220, // A
+233, // A#
+247, // B
+262  // C next octave
 };
  
 void setup()
